@@ -118,7 +118,7 @@ Pod::Spec.new do |s|
 
   s.vendored_frameworks = 'BaiduTraceKit/*.framework'
   # s.vendored_libraries = 'BaiduTraceKit/thirdlibs/*.a'
-  s.frameworks = "CoreLocation", "SystemConfiguration", "Security", "CoreTelephony","MobileCoreServices"
+  s.frameworks = "CoreLocation", "SystemConfiguration", "Security", "CoreTelephony", "MobileCoreServices"
 
   # s.library   = "iconv"
   s.libraries = "sqlite3.0", "c++", "z"
